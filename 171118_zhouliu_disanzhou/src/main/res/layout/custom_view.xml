@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <Button
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="一"
+        android:id="@+id/reverse"
+        android:layout_width="50dp"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/count"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_marginLeft="2dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:id="@+id/add"
+        android:gravity="center"
+        android:background="#00FFFFFF"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="+"/>
+</LinearLayout>
